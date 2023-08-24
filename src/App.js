@@ -8,7 +8,7 @@ function App() {
           <div class="flex overflow-x-auto space-x-4 p-4">
             <div class="flex-shrink-0 w-1/3 shadow border rounded p-4">
               <h1>Mohammed Taha</h1>
-              <p>A new message from Mohammed tuaha awaits you</p>
+              <p>A new message Mohammed </p>
             </div>
 
             <div class="flex-shrink-0 w-1/3 shadow border rounded p-4">
