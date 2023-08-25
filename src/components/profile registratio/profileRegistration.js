@@ -78,11 +78,7 @@ const ProfileRegistration = () => {
             <label className="block text-sm font-medium flex items-center justify-between">
               Gender
             </label>
-            <select
-              className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6
-            block text-sm font-medium flex items-center justify-between"
-              data-te-select-init
-            >
+            <select className="mt-2 pl-2 ...block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
               <option value="1">Male</option>
               <option value="2">Female</option>
             </select>
@@ -91,7 +87,7 @@ const ProfileRegistration = () => {
             <label className="block text-sm font-medium flex items-center justify-between">
               Skills
             </label>
-            <MultiSelect />
+            <MultiSelect className="mt-2" />
           </div>
           <div>
             <label className="block text-sm font-medium flex items-center justify-between">

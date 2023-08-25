@@ -10,7 +10,7 @@ const options = [
 
 const MultiSelect = () => {
   return (
-    <div>
+    <div className="mt-2">
       <Select isMulti options={options} />
     </div>
   );
